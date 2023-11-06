@@ -1,0 +1,59 @@
+\documentclass[a4paper,oneside,11pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{parskip}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{listings}
+\lstset{
+	basicstyle=\ttfamily,
+}
+
+\usepackage{graphicx}
+\graphicspath{ {./images} }
+
+\usepackage{tikz}
+
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=red,
+	urlcolor=blue
+}
+
+\usepackage[firstinits=true,style=trad-abbrv]{biblatex}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+
+% Title page and abstract.
+{{{
+\title{}
+\author{}
+\date{}
+
+\maketitle
+
+\textbf{Abstract:}
+\vspace*{\fill}
+
+\begin{center}
+	\textit{I certify that all material in this dissertation which is not my own work has been
+	identified.}
+\end{center}
+
+\thispagestyle{empty}
+\setcounter{page}{0}
+
+\newpage
+}}}
+
+\newpage
+
+\printbibliography
+
+\end{document}
