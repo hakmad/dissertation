@@ -1,2 +1,722 @@
 % References file.
 
+% Books.
+%{{{
+
+@book{B/Introduction-Cryptography,
+	title = {{Introduction to Cryptography: Principles and Applications}},
+	author = {Delfs, Hans and Knebl, Helmut},
+
+	year = {2015},
+
+	publisher = {Springer},
+	pages = {1--10},
+
+	isbn = {9783662479742},
+	doi = {10.1007/978-3-662-47974-2_1},
+}
+
+@book{B/Secure-ICs-Systems,
+	title = {{Secure Integrated Circuits and Systems}},
+	author = {Standaert, Fran{\c{c}}ois-Xavier},
+
+	year = {2010},
+
+	publisher = {Springer},
+	pages = {27--42},
+
+	isbn = {9780387718293},
+	doi = {10.1007/978-0-387-71829-3_2},
+}
+
+@book{B/Automated-Design-Genetic-Programming,
+	title = {{Automated Design of Both the Topology and Sizing of Analog
+		Electrical Circuits Using Genetic Programming}},
+	author = {Koza, John R and Bennett, Forrest H and Andre, David and
+		Keane, Martin A},
+
+	year = {1996},
+
+	publisher = {Springer},
+	pages = {151--170},
+
+	isbn = {9789400902794},
+	doi = {10.1007/978-94-009-0279-4_9},
+}
+
+@book{B/Elements-Statistical-Learning,
+	title = {{The Elements of Statistical Learning: Data Mining, Inference
+		and Prediction}},
+	author = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome},
+
+	year = {2009},
+
+	publisher = {Springer},
+	pages = {485--585},
+
+	isbn = {9780387848587},
+	doi = {10.1007/978-0-387-84858-7_14},
+}
+
+@book{B/Foundations-of-Machine-Learning,
+	title = {{Foundations of Machine Learning}},
+	author = {Mohri, Mehryar and Rostamizadeh, Afshin and Talwalkar,
+		Ameet},
+
+	year = {2018},
+
+	publisher = {MIT Press},
+	pages = {1--8},
+
+	isbn = {9780262039406},
+}
+
+@book{B/Reinforcement-Learning,
+	title = {{Reinforcement Learning}},
+	author = {van Otterlo, Martijn and Wiering, Marco},
+
+	year = {2012},
+
+	publisher = {Springer},
+	pages = {3--42},
+
+	isbn = {9783642276453},
+	doi = {10.1007/978-3-642-27645-3_1},
+}
+
+%}}}
+
+% Journal Articles.
+%{{{
+
+@article{A/Bursztein-2023-DL,
+	title = {{Generic Attacks against Cryptographic Hardware through
+		Long-Range Deep Learning}},
+	author = {Bursztein, Elie and Invernizzi, Luca and Kr{\'a}l, Karel and
+		Moghimi, Daniel and Picod, Jean-Michel and Zhang, Marina},
+
+	year = {2023},
+
+	journal = {arXiv preprint arXiv:2306.07249},
+	
+	doi = {10.48550/arXiv.2306.07249},
+}
+
+@article{A/Lerman-2015-ML-AES,
+	title = {{A machine learning approach against a masked AES: Reaching
+		the limit of side-channel attacks with a learning model}},
+	author = {Lerman, Liran and Bontempi, Gianluca and Markowitch, Olivier},
+	
+	year = {2015},
+
+	publisher = {Springer},
+	journal = {Journal of Cryptographic Engineering},
+	volume = {5},
+	pages = {123--139},
+
+	doi = {10.1007/s13389-014-0089-3},
+}
+
+@article{A/Hospodar-2011-ML-Template,
+	title = {{Machine learning in side-channel analysis: a first study}},
+	author = {Hospodar, Gabriel and Gierlichs, Benedikt and De Mulder, Elke
+		and Verbauwhede, Ingrid and Vandewalle, Joos},
+
+	year = {2011},
+
+	publisher = {Springer},
+	journal = {Journal of Cryptographic Engineering},
+	volume = {1},
+	number = {4},
+	pages = {293--302},
+
+	doi = {10.1007/s13389-011-0023-x},
+}
+
+@article{A/Velegalati-2008-DPA,
+	title = {{Differential power analysis attack on FPGA implementation of
+		AES}},
+	author = {Velegalati, Rajesh and Yalla, Panasayya SVVK},
+	
+	year={2008},
+
+	journal={ECE 746 Statistical Signal Processing},
+
+	url = {https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=dfd6d12f2e840c58a919b9604eaa7c01d3c055b4},
+	note = {Retrieved December 1, 2023},
+}
+
+@article{A/Johnson-2001-ECDSA,
+	title = {The elliptic curve digital signature algorithm (ECDSA)},
+	author = {Johnson, Don and Menezes, Alfred and Vanstone, Scott},
+
+	year = {2001},
+
+	publisher = {Springer},
+	journal = {International journal of information security},
+	volume = {1},
+	pages = {36--63},
+
+	doi = {10.1007/s102070100002},
+}
+
+@article{A/Rivest-1978-RSA,
+	title = {{A Method for Obtaining Digital Signatures and Public-Key
+		Cryptosystems}},
+	author = {Rivest, R L and Shamir, A and Adleman, L},
+
+	year = {1978},
+
+	publisher = {Association for Computing Machinery},
+	journal = {Communications of the ACM},
+	volume = {21},
+	number = {2},
+	pages = {120-–126},
+
+	doi = {10.1145/359340.359342},
+}
+
+@article{A/Kocher-2011-DPA,
+	title = {{Introduction to differential power analysis}},
+	author = {Kocher, Paul and Jaffe, Joshua and Jun, Benjamin and Rohatgi, Pankaj},
+	
+	year = {2011},
+
+	publisher = {Springer},
+	journal = {Journal of Cryptographic Engineering},
+	volume = {1},
+	pages = {5--27},
+
+	doi = {10.1007/s13389-011-0006-y},
+}
+
+@article{A/Zhou-2005-SCA-Cryptography,
+	title = {{Side-channel attacks: Ten years after its publication and the
+		impacts on cryptographic module security testing}},
+	author = {Zhou, YongBin and Feng, DengGuo},
+	
+	year = {2005},
+
+	journal = {Cryptology ePrint Archive},
+	
+	url = {https://eprint.iacr.org/2005/388},
+	note = {Retrieved November 29, 2023},
+}
+
+@article{A/Lyu-2018-SCA-IoT,
+	title = {{A survey of side-channel attacks on caches and countermeasures}},
+	author = {Lyu, Yangdi and Mishra, Prabhat},
+	
+	year = {2018},
+	
+	publisher = {Springer},
+	journal = {Journal of Hardware and Systems Security},
+	volume = {2},
+	pages = {33--50},
+
+	doi = {10.1007/s41635-017-0025-y},
+}
+
+@article{A/Bazm-2017-SCA-Cloud,
+	title = {{Side channels in the cloud: Isolation challenges, attacks,
+		and countermeasures}},
+	author = {{Bazm, Mohammad-Mahdi and Lacoste, Marc and S{\"u}dholt,
+		Mario and Menaud, Jean-Marc}},
+
+	year = {2017},
+
+	url = {https://inria.hal.science/hal-01591808/document},
+	note = {Retrieved November 29, 2023},
+}
+
+@article{A/Jancar-2020-Minerva,
+	title = {{Minerva: The curse of ECDSA nonces: Systematic analysis of
+		lattice attacks on noisy leakage of bit-length of ECDSA
+		nonces}},
+	author = {Jancar, Jan and Sedlacek, Vladimir and Svenda, Petr and Sys, Marek},
+
+	year = {2020},
+
+	journal = {IACR Transactions on Cryptographic Hardware and Embedded Systems},
+	volume = {2020},
+	number = {4},
+	pages = {281--308},
+
+	doi = {10.13154/tches.v2020.i4.281-308},	
+}
+
+
+@article{A/Brumley-2005-Remote-TAs,
+	title = {{Remote timing attacks are practical}},
+	author = {Brumley, David and Boneh, Dan},
+	
+	year = {2005},
+
+	publisher = {Elsevier},
+	journal = {Computer Networks},
+	volume = {48},
+	number = {5},
+	pages = {701--716},
+
+	doi = {10.1016/j.comnet.2005.01.010},
+}
+
+@article{A/Hettwer-2020-SCAML-Survey,
+	title = {{Applications of machine learning in side-channel attacks: a
+		survey}},
+	author = {Hettwer, Benjamin and Gehrer, Stefan and G{\"u}neysu, Tim},
+
+	year = {2020},
+
+	publisher = {Springer},
+	journal = {Journal of Cryptographic Engineering},
+	volume = {10},
+	pages = {135--162},
+
+	doi = {10.1007/s13389-019-00212-8},
+}
+
+@article{A/Kocher-2020-Spectre,
+	title = {{Spectre attacks: Exploiting speculative execution}},
+	author = {Kocher, Paul and Horn, Jann and Fogh, Anders and Genkin,
+		Daniel and Gruss, Daniel and Haas, Werner and Hamburg, Mike and
+		Lipp, Moritz and Mangard, Stefan and Prescher, Thomas
+		and others},
+
+	year = {2020},
+
+	publisher = {ACM},
+	journal = {Communications of the ACM},
+	volume = {63},
+	number = {7},
+	pages = {93--101},
+
+	doi = {10.1145/3399742},
+}
+
+@article{A/Lipp-2020-Meltdown,
+	title = {{Meltdown: Reading kernel memory from user space}},
+	author = {Lipp, Moritz and Schwarz, Michael and Gruss, Daniel and
+		Prescher, Thomas and Haas, Werner and Horn, Jann and Mangard,
+		Stefan and Kocher, Paul and Genkin, Daniel and Yarom, Yuval and
+		others},
+
+	year = {2020},
+
+	publisher = {ACM},
+	journal = {Communications of the ACM},
+	volume = {63},
+	number = {6},
+	pages = {46--56},
+
+	doi = {10.1145/3357033},
+}
+
+@article{A/Bernstein-2005-Timing-AES,
+	title = {{Cache-timing attacks on AES}},
+	author = {Bernstein, Daniel J},
+
+	year = {2005},
+
+	url = {https://mimoza.marmara.edu.tr/~msakalli/cse466_09/cache%20timing-20050414.pdf},
+	note = {Retrieved November 29, 2023},
+}
+
+%}}}
+
+% Journal Proceedings.
+%{{{
+
+@inproceedings{A/Luo-2023-AutoCAT,
+	title = {{AutoCAT: Reinforcement Learning for Automated Exploration of
+		Cache-Timing Attacks}}, 
+	author = {Luo, Mulong and Xiong, Wenjie and Lee, Geunbae and Li, Yueying
+		and Yang, Xiaomeng and Zhang, Amy and Tian, Yuandong and Lee,
+		Hsien-Hsin S. and Suh, G. Edward},
+
+	year={2023},
+
+	publisher = {IEEE},
+	booktitle = {2023 IEEE International Symposium on High-Performance
+		Computer Architecture (HPCA)},
+	pages = {317-332},
+
+	doi = {10.1109/HPCA56546.2023.10070947},
+}
+
+@inproceedings{A/Das-2019-DL,
+	title = {{X-DeepSCA: Cross-device deep learning side channel attack}},
+	author = {Das, Debayan and Golder, Anupam and Danial, Josef and Ghosh,
+		Santosh and Raychowdhury, Arijit and Sen, Shreyas},
+	
+	year = {2019},
+
+	publisher = {IEEE},
+	booktitle = {Proceedings of the 56th Annual Design Automation
+		Conference 2019},
+	pages = {1--6},
+
+	doi = {10.1145/3316781.3317934},
+}
+
+@inproceedings{A/Wang-2019-ML,
+	title = {How Diversity Affects Deep-Learning Side-Channel Attacks}, 
+	author = {Wang, Huanyu and Brisfors, Martin and Forsmark, Sebastian and
+		Dubrova, Elena},
+
+	year = {2019},
+
+	publisher = {IEEE},
+	booktitle = {2019 IEEE Nordic Circuits and Systems Conference (NORCAS):
+		NORCHIP and International Symposium of System-on-Chip (SoC)}, 
+	pages = {1--7},
+
+	doi = {10.1109/NORCHIP.2019.8906945},
+}
+
+@inproceedings{A/Picek-2017-ML,
+	title = {{Side-channel analysis and machine learning: A practical
+	        perspective}},
+	author = {Picek, Stjepan and Heuser, Annelie and Jovic, Alan and
+		Ludwig, Simone A. and Guilley, Sylvain and Jakobovic, Domagoj
+			and Mentens, Nele},
+
+	year={2017},
+
+	publisher = {IEEE},
+	booktitle={2017 International Joint Conference on Neural Networks (IJCNN)},
+	pages = {4095--4102},
+
+	doi = {10.1109/IJCNN.2017.7966373},
+}
+
+@inproceedings{A/Lerman-2015-ML-Template,
+	title = {{Template attacks vs. machine learning revisited (and the
+			curse of dimensionality in side-channel analysis)}},
+	author = {Lerman, Liran and Poussier, Romain and Bontempi, Gianluca
+		and Markowitch, Olivier and Standaert, Fran{\c{c}}ois-Xavier},
+	
+	year = {2015},
+
+	publisher = {Springer},
+	booktitle = {Constructive Side-Channel Analysis and Secure Design: 6th
+		International Workshop, COSADE 2015, Berlin, Germany, April
+		13-14, 2015. Revised Selected Papers 6},
+	pages = {20--33},
+
+	doi = {10.1007/s13389-014-0089-3},
+}
+
+@inproceedings{A/Medwed-2008-Template,
+	title = {{Template attacks on ECDSA}},
+	author = {Medwed, Marcel and Oswald, Elisabeth},
+
+	year = {2008},
+
+	publisher = {Springer},
+	booktitle = {International Workshop on Information Security Applications},
+	pages = {14--27},
+
+	doi = {10.1007/978-3-642-00306-6_2},
+}
+
+@inproceedings{A/Oswald-2007-Template,
+	title = {{Template attacks on masking—resistance is futile}},
+	author = {Oswald, Elisabeth and Mangard, Stefan},
+	
+	year = {2007},
+
+	publisher = {Springer},
+	booktitle = {Cryptographers’ Track at the RSA Conference},
+	pages = {243--256},
+
+	doi = {10.1007/11967668_16},
+}
+
+@inproceedings{A/Wu-2009-DPA,
+	title = {{Simple Power Analysis on Elliptic Curve Cryptosystems and
+		Countermeasures: Practical Work}}, 
+	author = {Wu, Keke and Li, Huiyun and Chen, Tingding and Yu, Fengqi},
+	
+	year = {2009},
+	
+	publisher = {IEEE},
+	booktitle = {2009 Second International Symposium on Electronic Commerce
+		and Security},
+	volume = {1},
+	pages = {21--24},
+
+	doi = {10.1109/ISECS.2009.7},
+}
+
+@inproceedings{A/Itoh-2003-DPA,
+	title = {{Address-bit differential power analysis of cryptographic
+		schemes OK-ECDH and OK-ECDSA}},
+	author = {Itoh, Kouichi and Izu, Tetsuya and Takenaka, Masahiko},
+
+	year = {2003},
+
+	organization = {Springer},
+	booktitle={Cryptographic Hardware and Embedded Systems-CHES 2002: 4th
+		International Workshop Redwood Shores, CA, USA, August 13--15,
+		2002 Revised Papers 4},
+	pages={129--143},
+
+	doi = {10.1007/3-540-36400-5_11},
+}
+
+@inproceedings{A/Fishcer-2006-DPA,
+	title = {Differential power analysis of stream ciphers},
+	author = {Fischer, Wieland and Gammel, Berndt M and Kniffler, Oliver
+		and Velten, Joachim},
+
+	year = {2006},
+
+	publisher = {Springer},
+	booktitle = {Topics in Cryptology--CT-RSA 2007: The Cryptographers’
+		Track at the RSA Conference 2007, San Francisco, CA, USA,
+		February 5-9, 2007. Proceedings},
+	pages = {257--270},
+
+	doi = {10.1007/11967668_17},
+}
+
+@inproceedings{A/Kocher-1999-DPA,
+	title = {Differential power analysis},
+	author = {Kocher, Paul and Jaffe, Joshua and Jun, Benjamin},
+	
+	year = {1999},
+
+	publisher = {Springer},
+	booktitle = {Advances in Cryptology-CRYPTO'99: 19th Annual
+		International Cryptology Conference Santa Barbara, California,
+		USA, August 15--19, 1999 Proceedings 19},
+	pages = {388--397},
+	
+	doi = {10.5555/646764.703989},
+}
+
+@inproceedings{A/Kasper-2009-Timing-AES,
+	title = {{Faster and timing-attack resistant AES-GCM}},
+	author = {K{\"a}sper, Emilia and Schwabe, Peter},
+
+	year={2009},
+
+	publisher = {Springer},
+	booktitle = {International Workshop on Cryptographic Hardware and
+		Embedded Systems},
+	pages = {1--17},
+
+	doi = {10.1007/978-3-642-04138-9_1},
+}
+
+@inproceedings{A/Dhem-2000-Timing-Practical,
+	title = {{A practical implementation of the timing attack}},
+	author = {Dhem, Jean-Francois and Koeune, Francois and Leroux,
+		Philippe-Alexandre and Mestr{\'e}, Patrick and Quisquater,
+		Jean-Jacques and Willems, Jean-Louis},
+	
+	year = {2000},
+
+	publisher = {Springer},
+	booktitle = {Smart Card Research and Applications: Third International
+		Conference, CARDIS’98, Louvain-la-Neuve, Belgium, September
+		14-16, 1998. Proceedings 3},
+	pages = {167--182},
+
+	doi = {10.1007/10721064_15},
+}
+
+@inproceedings{A/Song-2001-Timing-SSH,
+	title = {{Timing Analysis of Keystrokes and Timing Attacks on SSH}},
+	author = {Song, Dawn Xiaodong and Wagner, David and Tian, Xuqing},
+	
+	year = {2001},
+
+	publisher = {USENIX Association},
+	booktitle = {10th USENIX Security Symposium (USENIX Security 01)},
+
+	url = {https://www.usenix.org/conference/10th-usenix-security-symposium/timing-analysis-keystrokes-and-timing-attacks-ssh},
+	note = {Retrieved November 29, 2023},
+}
+
+@inproceedings{A/Brumley-2011-Remote-TAs,
+	title = {{Remote timing attacks are still practical}},
+	author = {Brumley, Billy Bob and Tuveri, Nicola},
+	
+	year={2011},
+
+	publisher = {Springer},
+	booktitle = {{European Symposium on Research in Computer Security}},
+	pages = {355--371},
+
+	doi = {10.1007/978-3-642-23822-2_20},
+}
+
+@inproceedings{A/Kocher-1996-Timing,
+	title = {{Timing attacks on implementations of Diffie-Hellman, RSA,
+		DSS, and other systems}},
+	author = {Kocher, Paul C},
+	
+	year = {1996},
+	
+	publisher = {Springer},
+	booktitle = {Advances in Cryptology-CRYPTO'96: 16th Annual
+		International Cryptology Conference Santa Barbara, California,
+		USA August 18--22, 1996 Proceedings 16},
+	pages = {104--113},
+
+	doi = {10.1007/3-540-68697-5_9},
+}
+
+@inproceedings{A/Chaum-1983-Blinding,
+	title = {{Blind signatures for untraceable payments}},
+	author = {Chaum, David},
+	
+	year = {1983},
+	
+	publisher={Springer},
+	booktitle = {Advances in Cryptology: Proceedings of Crypto 82},
+	pages = {199--203},
+
+	doi = {10.1007/978-1-4757-0602-4_18},
+}
+
+@inproceedings{A/Bonneau-2006-Timing-AES,
+	title = {{Cache-Collision Timing Attacks Against AES}},
+	author = {Bonneau, Joseph and Mironov, Ilya},
+
+	year = {2006},
+
+	publisher = {Springer},
+	booktitle = {Cryptographic Hardware and Embedded Systems - CHES 2006},
+	pages = {201--215},
+
+	doi = {10.1007/11894063_16},
+}
+
+@inproceedings{A/Chen-2010-SCA-Web,
+	title = {{Side-Channel Leaks in Web Applications: A Reality Today, a
+		Challenge Tomorrow}},
+	author={Chen, Shuo and Wang, Rui and Wang, XiaoFeng and Zhang, Kehuan},
+	
+	year={2010},
+	
+	publisher = {IEEE},
+	booktitle = {2010 IEEE Symposium on Security and Privacy},
+	volume = {},
+	number = {},
+	pages = {191--206},
+	
+	doi={10.1109/SP.2010.20},
+}
+
+@inproceedings{A/Chari-2003-Template,
+	title = {{Template attacks}},
+	author = {Chari, Suresh and Rao, Josyula R and Rohatgi, Pankaj},
+	
+	year = {2003},
+
+	publisher = {Springer},
+	booktitle = {Cryptographic Hardware and Embedded Systems-CHES 2002: 4th
+		International Workshop Redwood Shores, CA, USA, August 13--15,
+		2002 Revised Papers 4},
+	pages = {13--28},
+
+	doi = {10.1007/3-540-36400-5_3},
+}
+
+@inproceedings{A/Goubin-1999-DPA,
+	title = {{DES and differential power analysis the “Duplication”
+		method}},
+	author = {Goubin, Louis and Patarin, Jacques},
+	
+	year = {1999},
+
+	publisher = {Springer},
+	booktitle = {Cryptographic Hardware and Embedded Systems: First
+		InternationalWorkshop, CHES’99 Worcester, MA, USA, August
+		12--13, 1999 Proceedings 1},
+	pages = {158--172},
+
+	doi = {10.1007/3-540-48059-5_15},
+}
+
+@inproceedings{A/Oswald-2004-Template,
+	title = {{Practical template attacks}},
+	author = {Rechberger, Christian and Oswald, Elisabeth},
+
+	year = {2004},
+
+	publisher = {Springer},
+	booktitle = {International Workshop on Information Security Applications},
+	pages = {440--456},
+
+	doi = {10.1007/978-3-540-31815-6_35},
+}
+
+@inproceedings{A/Yen-2005-DPA,
+	title = {{Power analysis by exploiting chosen message and internal
+		collisions--vulnerability of checking mechanism for
+		RSA-decryption}},
+	author = {Yen, Sung-Ming and Lien, Wei-Chih and Moon, SangJae and Ha,
+		JaeCheol},
+
+	year = {2005},
+
+	publisher = {Springer},
+	booktitle = {Progress in Cryptology--Mycrypt 2005: First International
+		Conference on Cryptology in Malaysia, Kuala Lumpur, Malaysia,
+		September 28-30, 2005. Proceedings 1},
+	pages = {183--195},
+
+	doi = {10.1007/11554868_13},
+}
+
+%}}}
+
+% Web Pages.
+%{{{
+
+@misc{W/SCAAML,
+	title = {{SCAAML: Side Channel Attacks Assisted with Machine
+		Learning}},
+	author = {Bursztein, Elie and others},
+	
+	year = {2019},
+	
+	url = {https://github.com/google/scaaml},
+	note = {Retrieved December 1, 2023},
+}
+
+@misc{W/OpenSSL,
+	title = {{OpenSSL}},
+	author = {{The OpenSSL Project}},
+
+	year = {1998},
+
+	url = {https://www.openssl.org},
+	note = {Retrieved December 1, 2023},
+}
+
+@misc{W/OWASP-Top-10,
+	title = {{OWASP Top Ten}},
+	author = {{OWASP Foundation}},
+
+	year = {2021},
+
+	url = {https://owasp.org/www-project-top-ten},
+	note = {Retrieved November 29, 2023},
+}
+
+@misc{W/Meltdown-and-Spectre,
+	title = {{Meltdown and Spectre}},
+	author = {{Meltdown and Spectre Contributors}},
+
+	year = {2018},
+
+	url = {https://meltdownattack.com},
+	note = {Retrieved November 28, 2023},
+}
+
+%}}}
